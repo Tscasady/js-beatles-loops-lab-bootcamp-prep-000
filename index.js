@@ -8,7 +8,10 @@ function theBeatlesPlay(musicArray, instrumentArray){
 }
 
 function johnLennonFacts(factArray){
-  while(){
-    
+  var iterer = 0 
+  var newArray = []
+  while(iterer < factArray.length){
+    newArray[iterer] = `${factArray[iterer]}!!!`
+    iterer++
   }
 }
