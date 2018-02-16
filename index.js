@@ -6,3 +6,9 @@ function theBeatlesPlay(musicArray, instrumentArray){
   }
   return newArray
 }
+
+function johnLennonFacts(factArray){
+  while(){
+    
+  }
+}
