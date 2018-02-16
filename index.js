@@ -9,15 +9,19 @@ function theBeatlesPlay(musicArray, instrumentArray){
 
 function johnLennonFacts(factArray){
   var iterer = 0 
-  var newArray = []
+  var newishArray = []
   while(iterer < factArray.length){
-    newArray[iterer] = `${factArray[iterer]}!!!`
+    newishArray[iterer] = `${factArray[iterer]}!!!`
     iterer++
   }
-  return newArray
+  return newishArray
 }
 
 function iLoveTheBeatles(number){
   var emptyArray = []
-  
+  do{
+    emptyArray.push('I love the Beatles!')
+    number++
+  } while(number < 15)
+  return emptyArray
 }
