@@ -14,4 +14,5 @@ function johnLennonFacts(factArray){
     newArray[iterer] = `${factArray[iterer]}!!!`
     iterer++
   }
+  return newArray
 }
